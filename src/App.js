@@ -63,7 +63,7 @@ function App() {
           transformOriginVertical='top'
           transformOriginHorizontal='right'
         >
-          <DropdownWrapper width='160px'>
+          <DropdownWrapper width='200px'>
             <DropdownItem
               onClick={() => alert('You clicked item 1 in dropdown 2')}
             >

@@ -15,8 +15,10 @@ const useStyles = makeStyles({
     alignItems: 'center',
     width: '100%',
     padding: '0.5rem 1rem',
+    margin: '0',
     border: 'none',
     background: 'transparent',
+    fontSize: '1rem',
     textAlign: 'left',
 
     '&:hover': {
@@ -35,10 +37,10 @@ const useStyles = makeStyles({
   },
 })
 
-function DropdownItem({ children, onClick, ...props }) {
+function DropdownItem({ children, onClick }) {
   const classes = useStyles()
   return (
-    <li {...props} className={classes.root}>
+    <li className={classes.root}>
       <button onClick={onClick} className={classes.button}>
         {children}
       </button>
