@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     margin: '0',
     border: 'none',
     background: 'transparent',
-    fontSize: '1rem',
+    fontSize: '0.875rem',
     textAlign: 'left',
 
     '&:hover': {
