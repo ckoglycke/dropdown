@@ -4,6 +4,7 @@ import PopupState, { bindTrigger, bindPopover } from 'material-ui-popup-state'
 import { Button } from './Button'
 import { MenuIcon } from './MenuIcon'
 import { Tooltip } from './Tooltip'
+import { IconWrapper } from './IconWrapper'
 
 function Popper({
   children,
@@ -24,7 +25,9 @@ function Popper({
               aria-controls={dropdownId}
               ariaLabel='Toggle menu'
             >
-              <MenuIcon />
+              <IconWrapper color='#fff'>
+                <MenuIcon />
+              </IconWrapper>
             </Button>
           </Tooltip>
           <Popover

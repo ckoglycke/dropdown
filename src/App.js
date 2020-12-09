@@ -4,7 +4,7 @@ import DropdownWrapper from './DropdownWrapper'
 import Popper from './Popper'
 import DropdownItem from './DropdownItem'
 import { StarIcon } from './StarIcon'
-import { DropdownItemIcon } from './DropdownItemIcon'
+import { IconWrapper } from './IconWrapper'
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -67,41 +67,41 @@ function App() {
             <DropdownItem
               onClick={() => alert('You clicked item 1 in dropdown 2')}
             >
-              <DropdownItemIcon>
+              <IconWrapper style={{ marginRight: '0.5rem' }}>
                 <StarIcon />
-              </DropdownItemIcon>
+              </IconWrapper>
               Item 1
             </DropdownItem>
             <DropdownItem
               onClick={() => alert('You clicked item 2 in dropdown 2')}
             >
-              <DropdownItemIcon>
+              <IconWrapper style={{ marginRight: '0.5rem' }}>
                 <StarIcon />
-              </DropdownItemIcon>
+              </IconWrapper>
               Item 2
             </DropdownItem>
             <DropdownItem
               onClick={() => alert('You clicked item 3 in dropdown 2')}
             >
-              <DropdownItemIcon>
+              <IconWrapper style={{ marginRight: '0.5rem' }}>
                 <StarIcon />
-              </DropdownItemIcon>
+              </IconWrapper>
               Item 3 with an extra long label
             </DropdownItem>
             <DropdownItem
               onClick={() => alert('You clicked item 3 in dropdown 2')}
             >
-              <DropdownItemIcon>
+              <IconWrapper style={{ marginRight: '0.5rem' }}>
                 <StarIcon />
-              </DropdownItemIcon>
+              </IconWrapper>
               Item 4
             </DropdownItem>
             <DropdownItem
               onClick={() => alert('You clicked item 5 in dropdown 2')}
             >
-              <DropdownItemIcon>
+              <IconWrapper style={{ marginRight: '0.5rem' }}>
                 <StarIcon />
-              </DropdownItemIcon>
+              </IconWrapper>
               Item 5
             </DropdownItem>
           </DropdownWrapper>
